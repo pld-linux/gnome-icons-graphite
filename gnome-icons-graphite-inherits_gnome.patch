@@ -1,0 +1,11 @@
+diff -urN graphite.orig/index.theme graphite/index.theme
+--- graphite.orig/index.theme	2005-10-30 20:19:45.450940656 +0100
++++ graphite/index.theme	2005-10-30 20:20:19.460770376 +0100
+@@ -1,6 +1,7 @@
+ [Icon Theme]
+ Name=graphite
+ Comment=Modelled after the icon theme released by the legendary Jakub "Jimmac" Steiner (http://jimmac.musichall.cz) (http://lokheed.deviantart.com)
++Inherits=gnome
+ Directories=72x72/apps,72x72/filesystems,72x72/gtk,48x48/apps,48x48/devices,48x48/emblems,48x48/filesystems,48x48/gtk,48x48/mimetypes,48x48/stock/code,48x48/stock/data,48x48/stock/document,48x48/stock/generic,48x48/stock/io,48x48/stock/net,36x36/apps,36x36/devices,36x36/emblems,36x36/filesystems,36x36/mimetypes,36x36/stock/document,36x36/stock/generic,32x32/apps,32x32/emblems,32x32/filesystems,32x32/gtk,32x32/stock/chart,32x32/stock/code,32x32/stock/data,32x32/stock/document,32x32/stock/form,32x32/stock/generic,32x32/stock/image,32x32/stock/io,32x32/stock/media,32x32/stock/navigation,32x32/stock/net,32x32/stock/object,32x32/stock/table,32x32/stock/text,24x24/apps,24x24/devices,24x24/emblems,24x24/filesystems,24x24/gtk,24x24/mimetypes,24x24/stock/chart,24x24/stock/code,24x24/stock/data,24x24/stock/document,24x24/stock/form,24x24/stock/generic,24x24/stock/image,24x24/stock/io,24x24/stock/media,24x24/stock/navigation,24x24/stock/net,24x24/stock/object,24x24/stock/table,24x24/stock/text,20x20/apps,20x20/devices,20x20/emblems,20x20/filesystems,20x20/gtk,20x20/stock/document,20x20/stock/generic,16x16/apps,16x16/devices,16x16/filesystems,16x16/gtk,16x16/mimetypes,16x16/stock/chart,16x16/stock/code,16x16/stock/data,16x16/stock/document,16x16/stock/form,16x16/stock/generic,16x16/stock/image,16x16/stock/io,16x16/stock/media,16x16/stock/navigation,16x16/stock/net,16x16/stock/object,16x16/stock/table,16x16/stock/text,12x12/devices,12x12/emblems,12x12/filesystems,12x12/mimetypes
+ 
+ [72x72/apps]
