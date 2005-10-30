@@ -5,11 +5,12 @@ Summary:	Graphite GNOME Icons
 Summary(pl):	Zestaw ikonek graphite dla GNOME
 Name:		gnome-icons-graphite
 Version:	1.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Amusements
 Source0:	http://members.shaw.ca/titancreations/gnome/graphite/%{realname}-%{version}.tar.bz2
 # Source0-md5:	7ab77bcce941fcf0f09f19d56d93811f
+Patch0:		%{name}-inherits_gnome.patch
 URL:		http://gnome-look.org/content/show.php?content=26757
 BuildRequires:	gtk+2 >= 2:2.8.6
 BuildArch:	noarch
@@ -25,6 +26,7 @@ przez Jakuba Streinera.
 
 %prep
 %setup -q -n %{realname}
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
