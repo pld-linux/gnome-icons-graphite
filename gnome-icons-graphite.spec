@@ -4,13 +4,12 @@
 Summary:	Graphite GNOME Icons
 Summary(pl):	Zestaw ikonek graphite dla GNOME
 Name:		gnome-icons-graphite
-Version:	1.2
-Release:	3
+Version:	2.0
+Release:	1
 License:	GPL
 Group:		X11/Amusements
-Source0:	http://members.shaw.ca/titancreations/gnome/graphite/%{realname}-%{version}.tar.bz2
-# Source0-md5:	7ab77bcce941fcf0f09f19d56d93811f
-Patch0:		%{name}-inherits_gnome.patch
+Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	e681f33cd2456378acc14c8fb245fbbf
 URL:		http://gnome-look.org/content/show.php?content=26757
 BuildRequires:	gtk+2 >= 2:2.8.6
 BuildArch:	noarch
@@ -25,8 +24,7 @@ Zestaw jest obszernym rozszerzeniem standardowego motywu stworzonego
 przez Jakuba Streinera.
 
 %prep
-%setup -q -n %{realname}
-%patch0 -p1
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -54,7 +52,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_iconsdir}/%{realname}/36x36
 %dir %{_iconsdir}/%{realname}/48x48
 %dir %{_iconsdir}/%{realname}/72x72
-%{_iconsdir}/%{realname}/index.theme
+%{_iconsdir}/%{realname}/12x12/apps
 %{_iconsdir}/%{realname}/12x12/devices
 %{_iconsdir}/%{realname}/12x12/emblems
 %{_iconsdir}/%{realname}/12x12/filesystems
@@ -70,6 +68,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/%{realname}/20x20/emblems
 %{_iconsdir}/%{realname}/20x20/filesystems
 %{_iconsdir}/%{realname}/20x20/gtk
+%{_iconsdir}/%{realname}/20x20/mimetypes
 %{_iconsdir}/%{realname}/20x20/stock
 %{_iconsdir}/%{realname}/24x24/apps
 %{_iconsdir}/%{realname}/24x24/devices
@@ -99,4 +98,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/%{realname}/72x72/apps
 %{_iconsdir}/%{realname}/72x72/filesystems
 %{_iconsdir}/%{realname}/72x72/gtk
+%{_iconsdir}/%{realname}/scalable
+
 %{_iconsdir}/%{realname}/icon-theme.cache
+%{_iconsdir}/%{realname}/index.theme
