@@ -2,7 +2,7 @@
 %define		realname graphite
 #
 Summary:	Graphite GNOME Icons
-Summary(pl):	Zestaw ikonek graphite dla GNOME
+Summary(pl.UTF-8):   Zestaw ikonek graphite dla GNOME
 Name:		gnome-icons-graphite
 Version:	2.0
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The set is an extensive expansion on the default icon theme designed
 by Jakub Steiner.
 
-%description -l pl
+%description -l pl.UTF-8
 Zestaw jest obszernym rozszerzeniem standardowego motywu stworzonego
 przez Jakuba Streinera.
 
