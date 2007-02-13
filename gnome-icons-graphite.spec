@@ -2,7 +2,7 @@
 %define		realname graphite
 #
 Summary:	Graphite GNOME Icons
-Summary(pl.UTF-8):   Zestaw ikonek graphite dla GNOME
+Summary(pl.UTF-8):	Zestaw ikonek graphite dla GNOME
 Name:		gnome-icons-graphite
 Version:	2.0
 Release:	1
