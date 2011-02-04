@@ -11,7 +11,7 @@ Group:		X11/Amusements
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	e681f33cd2456378acc14c8fb245fbbf
 URL:		http://gnome-look.org/content/show.php?content=26757
-BuildRequires:	gtk+2 >= 2:2.8.6
+BuildRequires:	gtk-update-icon-cache
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
